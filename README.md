@@ -1,13 +1,14 @@
-# Sample Hardhat Project
+## Installation
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, and a script that deploys that contract.
+### cloning the repository
 
-Try running some of the following tasks:
+Alternatively you can clone the repository and install its dependencies to start using the smart contracts.
 
-```shell
-npx hardhat help
-npx hardhat test
-REPORT_GAS=true npx hardhat test
-npx hardhat node
-npx hardhat run scripts/deploy.js
+```bash
+$ git clone https://github.com/0xAdnanH/signature.git
+$ cd ./signature
+$ npm install
 ```
+
+## Explanation
+This contract uses one of the most used cryptoghraphy "ECDSA" , where a function is called by verifying the signature .
